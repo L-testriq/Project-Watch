@@ -71,7 +71,7 @@ public class DriverManagementCore {
 		case "chrome":
 			ChromeOptions options_c = new ChromeOptions();
 			options_c.addArguments("--incognito");
-//			options_c.addArguments("--headless");
+			options_c.addArguments("--headless");
 			driver = new ChromeDriver(options_c);
 			return driver;
 		case "firefox":
