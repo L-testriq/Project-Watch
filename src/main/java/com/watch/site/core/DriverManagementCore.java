@@ -120,6 +120,7 @@ public class DriverManagementCore {
 	@BeforeSuite
 	public void cleanData() throws IOException {
 		cleanDirectory(System.getProperty("user.dir") + "//screenshots");
+		System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "");
 	}
 
 }
