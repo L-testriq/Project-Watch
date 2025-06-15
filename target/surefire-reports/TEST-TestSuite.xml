@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="30.806" tests="17" errors="0" skipped="15" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="58.891" tests="15" errors="0" skipped="3" failures="3">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="user.country" value="GB"/>
     <property name="suiteName" value="MasterSuite1"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/testriq_20/eclipse-workspace/Ecubix/target/surefire/surefirebooter-20250601200304024_3.jar /Users/testriq_20/eclipse-workspace/Ecubix/target/surefire 2025-06-01T20-03-03_976-jvmRun1 surefire-20250601200304024_1tmp surefire_0-20250601200304024_2tmp"/>
+    <property name="sun.java.command" value="/Users/testriq_20/eclipse-workspace/Ecubix/target/surefire/surefirebooter-20250615141852542_3.jar /Users/testriq_20/eclipse-workspace/Ecubix/target/surefire 2025-06-15T14-18-52_477-jvmRun1 surefire-20250615141852542_1tmp surefire_0-20250615141852542_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/testriq_20/eclipse-workspace/Ecubix/target/test-classes:/Users/testriq_20/eclipse-workspace/Ecubix/target/classes:/Users/testriq_20/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/testriq_20/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/testriq_20/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/testriq_20/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-java/4.32.0/selenium-java-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-api/4.32.0/selenium-api-4.32.0.jar:/Users/testriq_20/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.32.0/selenium-chrome-driver-4.32.0.jar:/Users/testriq_20/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.32.0/selenium-chromium-driver-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-json/4.32.0/selenium-json-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.32.0/selenium-manager-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v134/4.32.0/selenium-devtools-v134-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v135/4.32.0/selenium-devtools-v135-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.32.0/selenium-devtools-v136-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.32.0/selenium-edge-driver-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.32.0/selenium-firefox-driver-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-http/4.32.0/selenium-http-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.32.0/selenium-ie-driver-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.32.0/selenium-remote-driver-4.32.0.jar:/Users/testriq_20/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/testriq_20/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/testriq_20/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/testriq_20/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/testriq_20/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/testriq_20/.m2/repository/io/opentelemetry/opentelemetry-api/1.49.0/opentelemetry-api-1.49.0.jar:/Users/testriq_20/.m2/repository/io/opentelemetry/opentelemetry-context/1.49.0/opentelemetry-context-1.49.0.jar:/Users/testriq_20/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.49.0/opentelemetry-exporter-logging-1.49.0.jar:/Users/testriq_20/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.49.0/opentelemetry-sdk-common-1.49.0.jar:/Users/testriq_20/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.49.0/opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar:/Users/testriq_20/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.49.0/opentelemetry-sdk-extension-autoconfigure-1.49.0.jar:/Users/testriq_20/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.49.0/opentelemetry-sdk-trace-1.49.0.jar:/Users/testriq_20/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.49.0/opentelemetry-sdk-1.49.0.jar:/Users/testriq_20/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.49.0/opentelemetry-sdk-metrics-1.49.0.jar:/Users/testriq_20/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.49.0/opentelemetry-sdk-logs-1.49.0.jar:/Users/testriq_20/.m2/repository/net/bytebuddy/byte-buddy/1.17.5/byte-buddy-1.17.5.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-os/4.32.0/selenium-os-4.32.0.jar:/Users/testriq_20/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.32.0/selenium-safari-driver-4.32.0.jar:/Users/testriq_20/.m2/repository/org/seleniumhq/selenium/selenium-support/4.32.0/selenium-support-4.32.0.jar:/Users/testriq_20/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar:/Users/testriq_20/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar:/Users/testriq_20/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar:/Users/testriq_20/.m2/repository/commons-io/commons-io/2.19.0/commons-io-2.19.0.jar:/Users/testriq_20/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/testriq_20/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/testriq_20/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/testriq_20/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/testriq_20/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/testriq_20/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/testriq_20/eclipse-workspace/Ecubix/target/surefire/surefirebooter-20250601200304024_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/testriq_20/eclipse-workspace/Ecubix/target/surefire/surefirebooter-20250615141852542_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.2"/>
@@ -60,8 +60,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="cleanData" classname="com.watch.site.contact_us.TestContactUsPage" time="0.329">
-    <failure message="1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]" type="org.apache.commons.io.IOExceptionList"><![CDATA[org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]
+  <testcase name="cleanData" classname="com.watch.site.product.TestProductAddedToCart" time="0.426">
+    <failure message="2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]" type="org.apache.commons.io.IOExceptionList"><![CDATA[org.apache.commons.io.IOExceptionList: 2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]
 	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
 	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
 	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
@@ -103,53 +103,174 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="launchWebApplication" classname="com.watch.site.contact_us.TestContactUsPage" time="0.0">
+  <testcase name="launchWebApplication" classname="com.watch.site.product.TestProductAddedToCart" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="launchWebApplication" classname="com.watch.site.contact_us.TestContactUsPage" time="0.0">
+  <testcase name="testSuccessfulProductAddToCart" classname="com.watch.site.product.TestProductAddedToCart" time="0.0">
+    <skipped message="2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]"/>
+  </testcase>
+  <testcase name="testSuccessfulProductAddToCart" classname="com.watch.site.product.TestProductAddedToCart" time="5.807">
+    <system-err><![CDATA[Jun 15, 2025 2:19:15 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:19:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="tearDown" classname="com.watch.site.product.TestProductAddedToCart" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="launchWebApplication" classname="com.watch.site.contact_us.TestContactUsPage" time="0.0">
-    <skipped/>
+  <testcase name="testSearchFunctionalityWRTMatchingProduct" classname="com.watch.site.search_result.TestSearchResultPage" time="3.878">
+    <system-out><![CDATA[36
+37
+]]></system-out>
+    <system-err><![CDATA[Jun 15, 2025 2:18:53 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:18:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jun 15, 2025 2:18:58 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:18:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
   </testcase>
-  <testcase name="testNavigationToContactUsPage" classname="com.watch.site.contact_us.TestContactUsPage" time="0.0">
-    <skipped message="1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]"/>
-  </testcase>
-  <testcase name="tearDown" classname="com.watch.site.contact_us.TestContactUsPage" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.watch.site.contact_us.TestContactUsPage" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.watch.site.contact_us.TestContactUsPage" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testEmptyFormSubmission" classname="com.watch.site.contact_us.TestContactUsPage" time="0.0">
-    <skipped message="1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]"/>
-  </testcase>
-  <testcase name="testSuccessfulFormSubmission" classname="com.watch.site.contact_us.TestContactUsPage" time="0.0">
-    <skipped message="1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]"/>
-  </testcase>
-  <testcase name="launchWebApplication" classname="com.watch.site.search_result.TestSearchResultPage" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="launchWebApplication" classname="com.watch.site.search_result.TestSearchResultPage" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testSearchFunctionalityWRTMatchingProduct" classname="com.watch.site.search_result.TestSearchResultPage" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.watch.site.search_result.TestSearchResultPage" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.watch.site.search_result.TestSearchResultPage" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testSearchFunctionalityWRTNoMatchingProduct" classname="com.watch.site.search_result.TestSearchResultPage" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testSuccessfulProductAddToCart" classname="com.watch.site.product.TestProductAddedToCart" time="10.675">
-    <system-out><![CDATA[32
+  <testcase name="testSearchFunctionalityWRTMatchingProduct" classname="com.watch.site.search_result.TestSearchResultPage" time="1.731">
+    <system-out><![CDATA[36
 ]]></system-out>
   </testcase>
+  <testcase name="testSearchFunctionalityWRTNoMatchingProduct" classname="com.watch.site.search_result.TestSearchResultPage" time="1.07">
+    <system-out><![CDATA[37
+]]></system-out>
+    <system-err><![CDATA[Jun 15, 2025 2:19:17 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:19:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="testSearchFunctionalityWRTNoMatchingProduct" classname="com.watch.site.search_result.TestSearchResultPage" time="1.055">
+    <system-out><![CDATA[36
+]]></system-out>
+    <system-err><![CDATA[Jun 15, 2025 2:19:23 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:19:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+Jun 15, 2025 2:19:26 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:19:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="testNavigationToContactUsPage" classname="com.watch.site.contact_us.TestContactUsPage" time="1.518">
+    <failure message="expected [Contact Us] but found [CONTACT US]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Contact Us] but found [CONTACT US]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.watch.site.contact_us.TestContactUsPage.testNavigationToContactUsPage(TestContactUsPage.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+]]></failure>
+    <system-out><![CDATA[37
+]]></system-out>
+    <system-err><![CDATA[Jun 15, 2025 2:19:28 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:19:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="testNavigationToContactUsPage" classname="com.watch.site.contact_us.TestContactUsPage" time="1.66">
+    <failure message="expected [Contact Us] but found [CONTACT US]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Contact Us] but found [CONTACT US]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.watch.site.contact_us.TestContactUsPage.testNavigationToContactUsPage(TestContactUsPage.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+]]></failure>
+    <system-out><![CDATA[36
+]]></system-out>
+    <system-err><![CDATA[Jun 15, 2025 2:19:31 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:19:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="testEmptyFormSubmission" classname="com.watch.site.contact_us.TestContactUsPage" time="0.125">
+    <system-out><![CDATA[37
+36
+]]></system-out>
+    <system-err><![CDATA[Jun 15, 2025 2:19:33 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:19:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="testEmptyFormSubmission" classname="com.watch.site.contact_us.TestContactUsPage" time="1.728">
+    <system-err><![CDATA[Jun 15, 2025 2:19:37 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:19:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="testSuccessfulFormSubmission" classname="com.watch.site.contact_us.TestContactUsPage" time="1.753">
+    <system-out><![CDATA[37
+36
+]]></system-out>
+    <system-err><![CDATA[Jun 15, 2025 2:19:38 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (136.0.7103.49) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (137.0.7151.104); currently, chromedriver 137.0.7151.70 is recommended for chrome 137.*, so it is advised to delete the driver in PATH and retry
+Jun 15, 2025 2:19:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="testSuccessfulFormSubmission" classname="com.watch.site.contact_us.TestContactUsPage" time="2.928"/>
 </testsuite>

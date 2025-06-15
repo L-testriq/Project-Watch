@@ -1,114 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="1" failed="0" skipped="5">
+<testng-results ignored="0" total="12" passed="9" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-01T20:03:35 IST" name="Master Suite 1" finished-at="2025-06-01T20:03:35 IST" duration-ms="0">
+  <suite started-at="2025-06-15T14:18:58 IST" name="Suite" finished-at="2025-06-15T14:19:46 IST" duration-ms="48164">
     <groups>
     </groups>
-  </suite> <!-- Master Suite 1 -->
-  <suite started-at="2025-06-01T20:03:04 IST" name="Sanity Suite" finished-at="2025-06-01T20:03:09 IST" duration-ms="5188">
-    <groups>
-    </groups>
-    <test started-at="2025-06-01T20:03:04 IST" name="Search Page Test" finished-at="2025-06-01T20:03:04 IST" duration-ms="12">
-      <class name="com.watch.site.search_result.TestSearchResultPage">
-        <test-method signature="testSearchFunctionalityWRTMatchingProduct()[pri:1, instance:com.watch.site.search_result.TestSearchResultPage@6a8658ff]" started-at="2025-06-01T20:03:04 IST" name="testSearchFunctionalityWRTMatchingProduct" description="Verify that the search functionality returns relevant results for valid keywords" finished-at="2025-06-01T20:03:04 IST" duration-ms="0" status="SKIP">
+    <test started-at="2025-06-15T14:18:58 IST" name="Test" finished-at="2025-06-15T14:19:46 IST" duration-ms="48164">
+      <class name="com.watch.site.product.TestProductAddedToCart">
+        <test-method is-config="true" signature="cleanData()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@16150369]" started-at="2025-06-15T14:18:58 IST" name="cleanData" finished-at="2025-06-15T14:18:58 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchFunctionalityWRTMatchingProduct -->
-        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@6a8658ff]" started-at="2025-06-01T20:03:04 IST" name="launchWebApplication" finished-at="2025-06-01T20:03:04 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- cleanData -->
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@16150369]" started-at="2025-06-15T14:18:58 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:02 IST" duration-ms="4235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebApplication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@6a8658ff]" started-at="2025-06-01T20:03:04 IST" name="tearDown" finished-at="2025-06-01T20:03:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testSuccessfulProductAddToCart()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@16150369]" started-at="2025-06-15T14:19:02 IST" name="testSuccessfulProductAddToCart" description="Test that product is successfully added in the cart" finished-at="2025-06-15T14:19:17 IST" duration-ms="14809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulProductAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@16150369]" started-at="2025-06-15T14:19:17 IST" name="tearDown" finished-at="2025-06-15T14:19:17 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@6a8658ff]" started-at="2025-06-01T20:03:04 IST" name="launchWebApplication" finished-at="2025-06-01T20:03:04 IST" duration-ms="0" status="SKIP">
+      </class> <!-- com.watch.site.product.TestProductAddedToCart -->
+      <class name="com.watch.site.search_result.TestSearchResultPage">
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@6b09fb41]" started-at="2025-06-15T14:19:17 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:21 IST" duration-ms="3768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebApplication -->
-        <test-method signature="testSearchFunctionalityWRTNoMatchingProduct()[pri:2, instance:com.watch.site.search_result.TestSearchResultPage@6a8658ff]" started-at="2025-06-01T20:03:04 IST" name="testSearchFunctionalityWRTNoMatchingProduct" description="Verify that search results shows no results when there are no matching products" finished-at="2025-06-01T20:03:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testSearchFunctionalityWRTMatchingProduct()[pri:1, instance:com.watch.site.search_result.TestSearchResultPage@6b09fb41]" started-at="2025-06-15T14:19:21 IST" name="testSearchFunctionalityWRTMatchingProduct" description="Verify that the search functionality returns relevant results for valid keywords" finished-at="2025-06-15T14:19:22 IST" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionalityWRTMatchingProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@6b09fb41]" started-at="2025-06-15T14:19:22 IST" name="tearDown" finished-at="2025-06-15T14:19:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@6b09fb41]" started-at="2025-06-15T14:19:22 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:26 IST" duration-ms="3953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebApplication -->
+        <test-method signature="testSearchFunctionalityWRTNoMatchingProduct()[pri:2, instance:com.watch.site.search_result.TestSearchResultPage@6b09fb41]" started-at="2025-06-15T14:19:26 IST" name="testSearchFunctionalityWRTNoMatchingProduct" description="Verify that search results shows no results when there are no matching products" finished-at="2025-06-15T14:19:27 IST" duration-ms="1055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchFunctionalityWRTNoMatchingProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@6a8658ff]" started-at="2025-06-01T20:03:04 IST" name="tearDown" finished-at="2025-06-01T20:03:04 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@6b09fb41]" started-at="2025-06-15T14:19:27 IST" name="tearDown" finished-at="2025-06-15T14:19:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.watch.site.search_result.TestSearchResultPage -->
+      <class name="com.watch.site.contact_us.TestContactUsPage">
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@624ea235]" started-at="2025-06-15T14:19:27 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:31 IST" duration-ms="3827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebApplication -->
+        <test-method signature="testNavigationToContactUsPage()[pri:1, instance:com.watch.site.contact_us.TestContactUsPage@624ea235]" started-at="2025-06-15T14:19:31 IST" name="testNavigationToContactUsPage" description="Test the navigation to Contact Us page" finished-at="2025-06-15T14:19:33 IST" duration-ms="1337" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Contact Us] but found [CONTACT US]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Contact Us] but found [CONTACT US]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.watch.site.contact_us.TestContactUsPage.testNavigationToContactUsPage(TestContactUsPage.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToContactUsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@624ea235]" started-at="2025-06-15T14:19:33 IST" name="tearDown" finished-at="2025-06-15T14:19:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@624ea235]" started-at="2025-06-15T14:19:33 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:37 IST" duration-ms="3612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebApplication -->
+        <test-method signature="testEmptyFormSubmission()[pri:2, instance:com.watch.site.contact_us.TestContactUsPage@624ea235]" started-at="2025-06-15T14:19:37 IST" name="testEmptyFormSubmission" description="Test that empty form can not be submitted" finished-at="2025-06-15T14:19:38 IST" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFormSubmission -->
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@624ea235]" started-at="2025-06-15T14:19:38 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:43 IST" duration-ms="4848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@624ea235]" started-at="2025-06-15T14:19:38 IST" name="tearDown" finished-at="2025-06-15T14:19:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSuccessfulFormSubmission()[pri:3, instance:com.watch.site.contact_us.TestContactUsPage@624ea235]" started-at="2025-06-15T14:19:43 IST" name="testSuccessfulFormSubmission" description="Test that Contact Us form submission sent a message" finished-at="2025-06-15T14:19:46 IST" duration-ms="2928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulFormSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@624ea235]" started-at="2025-06-15T14:19:46 IST" name="tearDown" finished-at="2025-06-15T14:19:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.watch.site.contact_us.TestContactUsPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2025-06-15T14:19:51 IST" name="Master Suite 1" finished-at="2025-06-15T14:19:51 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Master Suite 1 -->
+  <suite started-at="2025-06-15T14:18:53 IST" name="Sanity Suite" finished-at="2025-06-15T14:19:45 IST" duration-ms="52214">
+    <groups>
+    </groups>
+    <test started-at="2025-06-15T14:18:53 IST" name="Search Page Test" finished-at="2025-06-15T14:19:21 IST" duration-ms="28025">
+      <class name="com.watch.site.search_result.TestSearchResultPage">
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@333d4a8c]" started-at="2025-06-15T14:18:53 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:11 IST" duration-ms="18445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebApplication -->
+        <test-method signature="testSearchFunctionalityWRTMatchingProduct()[pri:1, instance:com.watch.site.search_result.TestSearchResultPage@333d4a8c]" started-at="2025-06-15T14:19:11 IST" name="testSearchFunctionalityWRTMatchingProduct" description="Verify that the search functionality returns relevant results for valid keywords" finished-at="2025-06-15T14:19:15 IST" duration-ms="3877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionalityWRTMatchingProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@333d4a8c]" started-at="2025-06-15T14:19:15 IST" name="tearDown" finished-at="2025-06-15T14:19:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@333d4a8c]" started-at="2025-06-15T14:19:15 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:20 IST" duration-ms="4612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebApplication -->
+        <test-method signature="testSearchFunctionalityWRTNoMatchingProduct()[pri:2, instance:com.watch.site.search_result.TestSearchResultPage@333d4a8c]" started-at="2025-06-15T14:19:20 IST" name="testSearchFunctionalityWRTNoMatchingProduct" description="Verify that search results shows no results when there are no matching products" finished-at="2025-06-15T14:19:21 IST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionalityWRTNoMatchingProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.search_result.TestSearchResultPage@333d4a8c]" started-at="2025-06-15T14:19:21 IST" name="tearDown" finished-at="2025-06-15T14:19:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.watch.site.search_result.TestSearchResultPage -->
     </test> <!-- Search Page Test -->
-    <test started-at="2025-06-01T20:03:09 IST" name="Contact Us Page Test" finished-at="2025-06-01T20:03:09 IST" duration-ms="5">
+    <test started-at="2025-06-15T14:19:26 IST" name="Contact Us Page Test" finished-at="2025-06-15T14:19:45 IST" duration-ms="19172">
       <class name="com.watch.site.contact_us.TestContactUsPage">
-        <test-method is-config="true" signature="cleanData()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@7a6d7e92]" started-at="2025-06-01T20:03:04 IST" name="cleanData" finished-at="2025-06-01T20:03:04 IST" duration-ms="16" status="FAIL">
-          <exception class="org.apache.commons.io.IOExceptionList">
-            <message>
-              <![CDATA[1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]
-at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
-at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
-at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
-at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
-at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
-at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
-at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
-at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
-at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
-at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
-... 22 more
-Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
-at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
-at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
-at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.apache.commons.io.IOExceptionList -->
+        <test-method is-config="true" signature="cleanData()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@97e93f1]" started-at="2025-06-15T14:18:53 IST" name="cleanData" finished-at="2025-06-15T14:18:53 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanData -->
-        <test-method signature="testNavigationToContactUsPage()[pri:1, instance:com.watch.site.contact_us.TestContactUsPage@7a6d7e92]" started-at="2025-06-01T20:03:09 IST" name="testNavigationToContactUsPage" description="Test the navigation to Contact Us page" finished-at="2025-06-01T20:03:09 IST" duration-ms="0" status="SKIP">
-          <exception class="org.apache.commons.io.IOExceptionList">
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@97e93f1]" started-at="2025-06-15T14:19:26 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:30 IST" duration-ms="3818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebApplication -->
+        <test-method signature="testNavigationToContactUsPage()[pri:1, instance:com.watch.site.contact_us.TestContactUsPage@97e93f1]" started-at="2025-06-15T14:19:30 IST" name="testNavigationToContactUsPage" description="Test the navigation to Contact Us page" finished-at="2025-06-15T14:19:31 IST" duration-ms="1173" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]]]>
+              <![CDATA[expected [Contact Us] but found [CONTACT US]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]
-at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
-at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
-at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
-at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
-at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
-at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
-at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
-at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
+              <![CDATA[java.lang.AssertionError: expected [Contact Us] but found [CONTACT US]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.watch.site.contact_us.TestContactUsPage.testNavigationToContactUsPage(TestContactUsPage.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
 at org.testng.SuiteRunner.run(SuiteRunner.java:312)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
@@ -118,164 +215,149 @@ at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:2
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1575)
-Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
-at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
-at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
-... 22 more
-Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
-at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
-at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
-at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
-... 25 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.apache.commons.io.IOExceptionList -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNavigationToContactUsPage -->
-        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@7a6d7e92]" started-at="2025-06-01T20:03:09 IST" name="launchWebApplication" finished-at="2025-06-01T20:03:09 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@97e93f1]" started-at="2025-06-15T14:19:31 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:35 IST" duration-ms="4098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebApplication -->
-        <test-method signature="testEmptyFormSubmission()[pri:2, instance:com.watch.site.contact_us.TestContactUsPage@7a6d7e92]" started-at="2025-06-01T20:03:09 IST" name="testEmptyFormSubmission" description="Test that empty form can not be submitted" finished-at="2025-06-01T20:03:09 IST" duration-ms="0" status="SKIP">
-          <exception class="org.apache.commons.io.IOExceptionList">
-            <message>
-              <![CDATA[1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]
-at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
-at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
-at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
-at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
-at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
-at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
-at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
-at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
-at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
-at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
-... 22 more
-Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
-at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
-at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
-at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.apache.commons.io.IOExceptionList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@97e93f1]" started-at="2025-06-15T14:19:31 IST" name="tearDown" finished-at="2025-06-15T14:19:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testEmptyFormSubmission()[pri:2, instance:com.watch.site.contact_us.TestContactUsPage@97e93f1]" started-at="2025-06-15T14:19:35 IST" name="testEmptyFormSubmission" description="Test that empty form can not be submitted" finished-at="2025-06-15T14:19:37 IST" duration-ms="1532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmptyFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@7a6d7e92]" started-at="2025-06-01T20:03:09 IST" name="tearDown" finished-at="2025-06-01T20:03:09 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@97e93f1]" started-at="2025-06-15T14:19:37 IST" name="tearDown" finished-at="2025-06-15T14:19:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@7a6d7e92]" started-at="2025-06-01T20:03:09 IST" name="launchWebApplication" finished-at="2025-06-01T20:03:09 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@97e93f1]" started-at="2025-06-15T14:19:37 IST" name="launchWebApplication" finished-at="2025-06-15T14:19:41 IST" duration-ms="3947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebApplication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@7a6d7e92]" started-at="2025-06-01T20:03:09 IST" name="tearDown" finished-at="2025-06-01T20:03:09 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@7a6d7e92]" started-at="2025-06-01T20:03:09 IST" name="launchWebApplication" finished-at="2025-06-01T20:03:09 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebApplication -->
-        <test-method signature="testSuccessfulFormSubmission()[pri:3, instance:com.watch.site.contact_us.TestContactUsPage@7a6d7e92]" started-at="2025-06-01T20:03:09 IST" name="testSuccessfulFormSubmission" description="Test that Contact Us form submission sent a message" finished-at="2025-06-01T20:03:09 IST" duration-ms="0" status="SKIP">
-          <exception class="org.apache.commons.io.IOExceptionList">
-            <message>
-              <![CDATA[1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]
-at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
-at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
-at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
-at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
-at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
-at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
-at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
-at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
-at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
-at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
-... 22 more
-Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
-at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
-at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
-at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
-... 25 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.apache.commons.io.IOExceptionList -->
+        <test-method signature="testSuccessfulFormSubmission()[pri:3, instance:com.watch.site.contact_us.TestContactUsPage@97e93f1]" started-at="2025-06-15T14:19:41 IST" name="testSuccessfulFormSubmission" description="Test that Contact Us form submission sent a message" finished-at="2025-06-15T14:19:45 IST" duration-ms="4255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@7a6d7e92]" started-at="2025-06-01T20:03:09 IST" name="tearDown" finished-at="2025-06-01T20:03:09 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.contact_us.TestContactUsPage@97e93f1]" started-at="2025-06-15T14:19:45 IST" name="tearDown" finished-at="2025-06-15T14:19:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.watch.site.contact_us.TestContactUsPage -->
     </test> <!-- Contact Us Page Test -->
   </suite> <!-- Sanity Suite -->
-  <suite started-at="2025-06-01T20:03:04 IST" name="Regression Suite" finished-at="2025-06-01T20:03:29 IST" duration-ms="25403">
+  <suite started-at="2025-06-15T14:18:53 IST" name="Regression Suite" finished-at="2025-06-15T14:18:53 IST" duration-ms="19">
     <groups>
     </groups>
-    <test started-at="2025-06-01T20:03:04 IST" name="Product Added To Cart Test" finished-at="2025-06-01T20:03:29 IST" duration-ms="25403">
+    <test started-at="2025-06-15T14:18:53 IST" name="Product Added To Cart Test" finished-at="2025-06-15T14:18:53 IST" duration-ms="19">
       <class name="com.watch.site.product.TestProductAddedToCart">
-        <test-method is-config="true" signature="cleanData()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@66982506]" started-at="2025-06-01T20:03:04 IST" name="cleanData" finished-at="2025-06-01T20:03:04 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="cleanData()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@5a59ca5e]" started-at="2025-06-15T14:18:53 IST" name="cleanData" finished-at="2025-06-15T14:18:53 IST" duration-ms="19" status="FAIL">
+          <exception class="org.apache.commons.io.IOExceptionList">
+            <message>
+              <![CDATA[2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.commons.io.IOExceptionList: 2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]
+at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
+at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
+at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
+at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
+at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
+at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
+at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
+at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
+... 22 more
+Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
+at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
+at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.commons.io.IOExceptionList -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanData -->
-        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@66982506]" started-at="2025-06-01T20:03:04 IST" name="launchWebApplication" finished-at="2025-06-01T20:03:19 IST" duration-ms="14717" status="PASS">
+        <test-method is-config="true" signature="launchWebApplication()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@5a59ca5e]" started-at="2025-06-15T14:18:53 IST" name="launchWebApplication" finished-at="2025-06-15T14:18:53 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebApplication -->
-        <test-method signature="testSuccessfulProductAddToCart()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@66982506]" started-at="2025-06-01T20:03:19 IST" name="testSuccessfulProductAddToCart" description="Test that product is successfully added in the cart" finished-at="2025-06-01T20:03:29 IST" duration-ms="10674" status="PASS">
+        <test-method signature="testSuccessfulProductAddToCart()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@5a59ca5e]" started-at="2025-06-15T14:18:53 IST" name="testSuccessfulProductAddToCart" description="Test that product is successfully added in the cart" finished-at="2025-06-15T14:18:53 IST" duration-ms="0" status="SKIP">
+          <exception class="org.apache.commons.io.IOExceptionList">
+            <message>
+              <![CDATA[2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.commons.io.IOExceptionList: 2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]
+at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
+at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
+at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
+at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
+at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
+at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
+at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
+at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
+... 22 more
+Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
+at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
+at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.commons.io.IOExceptionList -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulProductAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@66982506]" started-at="2025-06-01T20:03:29 IST" name="tearDown" finished-at="2025-06-01T20:03:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.watch.site.product.TestProductAddedToCart@5a59ca5e]" started-at="2025-06-15T14:18:53 IST" name="tearDown" finished-at="2025-06-15T14:18:53 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

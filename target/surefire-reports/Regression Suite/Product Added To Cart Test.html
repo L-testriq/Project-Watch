@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Product Added To Cart Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jun 01 20:03:04 IST 2025</td>
+<td>Started on:</td><td>Sun Jun 15 14:18:53 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25403 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (19 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,103 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.watch.site.product.TestProductAddedToCart.cleanData()'><b>cleanData</b><br>Test class: com.watch.site.product.TestProductAddedToCart</td>
+<td><div><pre>org.apache.commons.io.IOExceptionList: 2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
+	at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
+	at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
+	... 22 more
+Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
+	at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
+	... 25 more
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1074986686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1074986686'><pre>org.apache.commons.io.IOExceptionList: 2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
+	at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
+	at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
+	... 22 more
+Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
+	at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
+	... 25 more
+</pre></div></td>
+<td>0</td>
+<td>com.watch.site.product.TestProductAddedToCart@5a59ca5e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.watch.site.product.TestProductAddedToCart.tearDown()'><b>tearDown</b><br>Test class: com.watch.site.product.TestProductAddedToCart</td>
+<td></td>
+<td>0</td>
+<td>com.watch.site.product.TestProductAddedToCart@5a59ca5e</td></tr>
+<tr>
+<td title='com.watch.site.product.TestProductAddedToCart.launchWebApplication()'><b>launchWebApplication</b><br>Test class: com.watch.site.product.TestProductAddedToCart</td>
+<td></td>
+<td>0</td>
+<td>com.watch.site.product.TestProductAddedToCart@5a59ca5e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -77,9 +172,71 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.watch.site.product.TestProductAddedToCart.testSuccessfulProductAddToCart()'><b>testSuccessfulProductAddToCart</b><br>Test class: com.watch.site.product.TestProductAddedToCart<br>Test method: Test that product is successfully added in the cart</td>
-<td></td>
-<td>10</td>
-<td>com.watch.site.product.TestProductAddedToCart@66982506</td></tr>
+<td><div><pre>org.apache.commons.io.IOExceptionList: 2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
+	at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
+	at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
+	... 22 more
+Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
+	at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
+	... 25 more
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1595136807", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1595136807'><pre>org.apache.commons.io.IOExceptionList: 2 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png, org.apache.commons.io.IOIndexedException: FileNotFoundException #1: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testSuccessfulFormSubmission.png]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
+	at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
+	at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
+	... 22 more
+Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
+	at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
+	... 25 more
+</pre></div></td>
+<td>0</td>
+<td>com.watch.site.product.TestProductAddedToCart@5a59ca5e</td></tr>
 </table><p>
 </body>
 </html>

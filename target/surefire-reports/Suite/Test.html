@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Contact Us Page Test</title>
+<title>TestNG:  Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Contact Us Page Test</h2><table border='1' align="center">
+<h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jun 15 14:19:26 IST 2025</td>
+<td>Started on:</td><td>Sun Jun 15 14:18:58 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19172 ms)</td>
+<tr><td>Total time:</td><td>48 seconds (48164 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -85,8 +85,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace270506216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace270506216'><pre>java.lang.AssertionError: expected [Contact Us] but found [CONTACT US]
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1481383122", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1481383122'><pre>java.lang.AssertionError: expected [Contact Us] but found [CONTACT US]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -121,7 +121,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
 <td>1</td>
-<td>com.watch.site.contact_us.TestContactUsPage@97e93f1</td></tr>
+<td>com.watch.site.contact_us.TestContactUsPage@624ea235</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -132,15 +132,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.watch.site.contact_us.TestContactUsPage.testEmptyFormSubmission()'><b>testEmptyFormSubmission</b><br>Test class: com.watch.site.contact_us.TestContactUsPage<br>Test method: Test that empty form can not be submitted</td>
+<td title='com.watch.site.product.TestProductAddedToCart.testSuccessfulProductAddToCart()'><b>testSuccessfulProductAddToCart</b><br>Test class: com.watch.site.product.TestProductAddedToCart<br>Test method: Test that product is successfully added in the cart</td>
 <td></td>
-<td>1</td>
-<td>com.watch.site.contact_us.TestContactUsPage@97e93f1</td></tr>
+<td>14</td>
+<td>com.watch.site.product.TestProductAddedToCart@16150369</td></tr>
 <tr>
 <td title='com.watch.site.contact_us.TestContactUsPage.testSuccessfulFormSubmission()'><b>testSuccessfulFormSubmission</b><br>Test class: com.watch.site.contact_us.TestContactUsPage<br>Test method: Test that Contact Us form submission sent a message</td>
 <td></td>
-<td>4</td>
-<td>com.watch.site.contact_us.TestContactUsPage@97e93f1</td></tr>
+<td>2</td>
+<td>com.watch.site.contact_us.TestContactUsPage@624ea235</td></tr>
+<tr>
+<td title='com.watch.site.search_result.TestSearchResultPage.testSearchFunctionalityWRTNoMatchingProduct()'><b>testSearchFunctionalityWRTNoMatchingProduct</b><br>Test class: com.watch.site.search_result.TestSearchResultPage<br>Test method: Verify that search results shows no results when there are no matching products</td>
+<td></td>
+<td>1</td>
+<td>com.watch.site.search_result.TestSearchResultPage@6b09fb41</td></tr>
+<tr>
+<td title='com.watch.site.contact_us.TestContactUsPage.testEmptyFormSubmission()'><b>testEmptyFormSubmission</b><br>Test class: com.watch.site.contact_us.TestContactUsPage<br>Test method: Test that empty form can not be submitted</td>
+<td></td>
+<td>1</td>
+<td>com.watch.site.contact_us.TestContactUsPage@624ea235</td></tr>
+<tr>
+<td title='com.watch.site.search_result.TestSearchResultPage.testSearchFunctionalityWRTMatchingProduct()'><b>testSearchFunctionalityWRTMatchingProduct</b><br>Test class: com.watch.site.search_result.TestSearchResultPage<br>Test method: Verify that the search functionality returns relevant results for valid keywords</td>
+<td></td>
+<td>1</td>
+<td>com.watch.site.search_result.TestSearchResultPage@6b09fb41</td></tr>
 </table><p>
 </body>
 </html>
