@@ -13,10 +13,13 @@ public class ExtentReport {
 
 	public static ExtentReports getReportObject() {
 		if (report == null) {
-			String reportPath = System.getProperty("user.dir") + "//reports//index"+getCurrentDate()+".html";
+//			String reportPath = System.getProperty("user.dir") + "//reports//index"+getCurrentDate()+".html";
+			String reportPath = System.getProperty("user.dir") + "//reports//index_"+System.getProperty("suiteName")+".html";
 			reporter = new ExtentSparkReporter(new File(reportPath));
-			reporter.config().setDocumentTitle("Test Results");
-			reporter.config().setReportName("Watch: Automation Report");
+//			reporter.config().setDocumentTitle("Test Results");
+//			reporter.config().setReportName("Watch: Automation Report");
+			reporter.config().setDocumentTitle("Watch: Automation Report");
+			reporter.config().setReportName(System.getProperty("suiteName"));
 			report = new ExtentReports();
 			report.attachReporter(reporter);
 			report.setSystemInfo("OS", System.getProperty("os.name"));

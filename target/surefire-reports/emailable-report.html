@@ -8,45 +8,134 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Master Suite 2</th></tr>
+<tr><th colspan="8">Master Suite 1</th></tr>
 <tr><th colspan="8">Sanity Suite</th></tr>
-<tr><td><a href="#t0">Search Page Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,993</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Contact Us Page Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">25,259</td><td></td><td></td></tr>
-<tr><th colspan="8">Smoke Suite</th></tr>
-<tr><td><a href="#t2">Search Result Page Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,307</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t3">Contact Us Page Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,607</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">84,166</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Search Page Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">12</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Contact Us Page Test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">5</td><td></td><td></td></tr>
+<tr><th colspan="8">Regression Suite</th></tr>
+<tr><td><a href="#t2">Product Added To Cart Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">25,403</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num attn">5</th><th class="num">0</th><th class="num">0</th><th class="num">25,420</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master Suite 2</th></tr></tbody><tbody><tr><th colspan="4">Sanity Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Search Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.watch.site.search_result.TestSearchResultPage</td><td><a href="#m0">testSearchFunctionalityWRTMatchingProduct</a></td><td rowspan="1">1747893571629</td><td rowspan="1">2054</td></tr><tr class="passedeven"><td><a href="#m1">testSearchFunctionalityWRTNoMatchingProduct</a></td><td rowspan="1">1747893578610</td><td rowspan="1">1451</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Contact Us Page Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.watch.site.contact_us.TestContactUsPage</td><td><a href="#m2">testNavigationToContactUsPage</a></td><td rowspan="1">1747893591572</td><td rowspan="1">930</td></tr><tr><th colspan="4">Contact Us Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.watch.site.contact_us.TestContactUsPage</td><td><a href="#m3">testEmptyFormSubmission</a></td><td rowspan="1">1747893597268</td><td rowspan="1">1589</td></tr><tr class="passedeven"><td><a href="#m4">testSuccessfulFormSubmission</a></td><td rowspan="1">1747893605591</td><td rowspan="1">4894</td></tr></tbody>
-<tbody><tr><th colspan="4">Smoke Suite</th></tr></tbody><tbody id="t2"><tr><th colspan="4">Search Result Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.watch.site.search_result.TestSearchResultPage</td><td><a href="#m5">testSearchFunctionalityWRTMatchingProduct</a></td><td rowspan="1">1747893571536</td><td rowspan="1">2143</td></tr><tr class="passedeven"><td><a href="#m6">testSearchFunctionalityWRTNoMatchingProduct</a></td><td rowspan="1">1747893578664</td><td rowspan="1">1711</td></tr></tbody>
-<tbody id="t3"><tr><th colspan="4">Contact Us Page Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.watch.site.contact_us.TestContactUsPage</td><td><a href="#m7">testNavigationToContactUsPage</a></td><td rowspan="1">1747893590941</td><td rowspan="1">1226</td></tr><tr><th colspan="4">Contact Us Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.watch.site.contact_us.TestContactUsPage</td><td><a href="#m8">testEmptyFormSubmission</a></td><td rowspan="1">1747893596702</td><td rowspan="1">1763</td></tr><tr class="passedeven"><td><a href="#m9">testSuccessfulFormSubmission</a></td><td rowspan="1">1747893604801</td><td rowspan="1">5185</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master Suite 1</th></tr></tbody><tbody><tr><th colspan="4">Sanity Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Search Page Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="4">com.watch.site.search_result.TestSearchResultPage</td><td><a href="#m0">launchWebApplication</a></td><td rowspan="2">1748788384565</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m1">launchWebApplication</a></td></tr><tr class="skippedeven"><td><a href="#m2">tearDown</a></td><td rowspan="2">1748788384571</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m3">tearDown</a></td></tr><tr><th colspan="4">Search Page Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.watch.site.search_result.TestSearchResultPage</td><td><a href="#m4">testSearchFunctionalityWRTMatchingProduct</a></td><td rowspan="1">1748788384565</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">testSearchFunctionalityWRTNoMatchingProduct</a></td><td rowspan="1">1748788384571</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Contact Us Page Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.watch.site.contact_us.TestContactUsPage</td><td><a href="#m6">cleanData</a></td><td rowspan="1">1748788384541</td><td rowspan="1">16</td></tr><tr><th colspan="4">Contact Us Page Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="6">com.watch.site.contact_us.TestContactUsPage</td><td><a href="#m7">launchWebApplication</a></td><td rowspan="3">1748788389743</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m8">launchWebApplication</a></td></tr><tr class="skippedeven"><td><a href="#m9">launchWebApplication</a></td></tr><tr class="skippedeven"><td><a href="#m10">tearDown</a></td><td rowspan="3">1748788389745</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m11">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m12">tearDown</a></td></tr><tr><th colspan="4">Contact Us Page Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.watch.site.contact_us.TestContactUsPage</td><td><a href="#m13">testEmptyFormSubmission</a></td><td rowspan="1">1748788389744</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m14">testNavigationToContactUsPage</a></td><td rowspan="1">1748788389743</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m15">testSuccessfulFormSubmission</a></td><td rowspan="1">1748788389746</td><td rowspan="1">0</td></tr></tbody>
+<tbody><tr><th colspan="4">Regression Suite</th></tr></tbody><tbody id="t2"><tr><th colspan="4">Product Added To Cart Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.watch.site.product.TestProductAddedToCart</td><td><a href="#m16">testSuccessfulProductAddToCart</a></td><td rowspan="1">1748788399282</td><td rowspan="1">10674</td></tr></tbody>
 </table>
-<h2>Search Page Test</h2><h3 id="m0">com.watch.site.search_result.TestSearchResultPage#testSearchFunctionalityWRTMatchingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.watch.site.search_result.TestSearchResultPage#testSearchFunctionalityWRTNoMatchingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Contact Us Page Test</h2><h3 id="m2">com.watch.site.contact_us.TestContactUsPage#testNavigationToContactUsPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Contact Us] but found [CONTACT US]
-	at com.watch.site.contact_us.TestContactUsPage.testNavigationToContactUsPage(TestContactUsPage.java:20)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+<h2>Search Page Test</h2><h3 id="m0">com.watch.site.search_result.TestSearchResultPage#launchWebApplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.watch.site.search_result.TestSearchResultPage#launchWebApplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.watch.site.search_result.TestSearchResultPage#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.watch.site.search_result.TestSearchResultPage#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.watch.site.search_result.TestSearchResultPage#testSearchFunctionalityWRTMatchingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.watch.site.search_result.TestSearchResultPage#testSearchFunctionalityWRTNoMatchingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Contact Us Page Test</h2><h3 id="m6">com.watch.site.contact_us.TestContactUsPage#cleanData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
+	at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
+	at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.watch.site.contact_us.TestContactUsPage#testEmptyFormSubmission</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.watch.site.contact_us.TestContactUsPage#testSuccessfulFormSubmission</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Search Result Page Test</h2><h3 id="m5">com.watch.site.search_result.TestSearchResultPage#testSearchFunctionalityWRTMatchingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.watch.site.search_result.TestSearchResultPage#testSearchFunctionalityWRTNoMatchingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Contact Us Page Test</h2><h3 id="m7">com.watch.site.contact_us.TestContactUsPage#testNavigationToContactUsPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Contact Us] but found [CONTACT US]
-	at com.watch.site.contact_us.TestContactUsPage.testNavigationToContactUsPage(TestContactUsPage.java:20)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
+	... 22 more
+Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
+	at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
+	... 25 more
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.watch.site.contact_us.TestContactUsPage#launchWebApplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.watch.site.contact_us.TestContactUsPage#launchWebApplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.watch.site.contact_us.TestContactUsPage#launchWebApplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.watch.site.contact_us.TestContactUsPage#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.watch.site.contact_us.TestContactUsPage#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.watch.site.contact_us.TestContactUsPage#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.watch.site.contact_us.TestContactUsPage#testEmptyFormSubmission</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
+	at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
+	at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.watch.site.contact_us.TestContactUsPage#testEmptyFormSubmission</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.watch.site.contact_us.TestContactUsPage#testSuccessfulFormSubmission</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
+	... 22 more
+Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
+	at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
+	... 25 more
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.watch.site.contact_us.TestContactUsPage#testNavigationToContactUsPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
+	at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
+	at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
+	... 22 more
+Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
+	at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
+	... 25 more
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.watch.site.contact_us.TestContactUsPage#testSuccessfulFormSubmission</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:357)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42)
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36)
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:82)
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:381)
+	at com.watch.site.core.DriverManagementCore.cleanDirectory(DriverManagementCore.java:106)
+	at com.watch.site.core.DriverManagementCore.cleanData(DriverManagementCore.java:122)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.apache.commons.io.IOIndexedException: FileNotFoundException #0: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:352)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:343)
+	... 22 more
+Caused by: java.io.FileNotFoundException: File does not exist: /Users/testriq_20/eclipse-workspace/Ecubix/screenshots/testNavigationToContactUsPage.png
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1432)
+	at org.apache.commons.io.FileUtils.lambda$cleanDirectory$0(FileUtils.java:381)
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:345)
+	... 25 more
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Product Added To Cart Test</h2><h3 id="m16">com.watch.site.product.TestProductAddedToCart#testSuccessfulProductAddToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

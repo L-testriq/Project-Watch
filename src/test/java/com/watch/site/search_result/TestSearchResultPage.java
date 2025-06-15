@@ -2,6 +2,7 @@ package com.watch.site.search_result;
 
 import org.testng.annotations.Test;
 
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -18,6 +19,10 @@ public class TestSearchResultPage extends DriverManagementCore {
 		HomePage homePage = new HomePage(driver);
 		SearchProduct searchProduct = homePage.searchProduct("Casio");
 		Assert.assertTrue(searchProduct.verifySearchResult("Casio"));
+//		String productName = searchProduct.getFirstProductName();
+//		System.out.println(PropertiesUtils.getProperty("product", System.getProperty("user.dir")+"/src/main/resources/global.properties"));
+//		PropertiesUtils.setProperty("product", productName, System.getProperty("user.dir")+"/src/main/resources/global.properties");
+//		System.out.println(PropertiesUtils.getProperty("product", System.getProperty("user.dir")+"/src/main/resources/global.properties"));
 	}
 
 	@Test(priority = 2, description = "Verify that search results shows no results when there are no matching products")

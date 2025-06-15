@@ -28,7 +28,7 @@
 		},
 		"product": {
 			"type": "xpath",
-			"value": "//div[@class='name']//h2"
+			"value": "//div[@class='name']//a"
 		},
 		"add_to_basket": {
 			"type": "xpath",

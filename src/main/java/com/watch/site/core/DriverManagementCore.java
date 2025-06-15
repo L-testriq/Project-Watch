@@ -108,7 +108,7 @@ public class DriverManagementCore {
 
 	@AfterMethod
 	public void tearDown() {
-		getDriver().quit();
+//		getDriver().quit();
 		t_driver.remove();
 		/*
 		 * Using the remove() function helps to prevent memory leaks by clearing the
@@ -119,8 +119,7 @@ public class DriverManagementCore {
 	
 	@BeforeSuite
 	public void cleanData() throws IOException {
-		cleanDirectory(System.getProperty("user.dir") + "//screenshots");
-		System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "");
+		cleanDirectory(System.getProperty("user.dir") + "//screenshots");	
 	}
 
 }

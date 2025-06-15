@@ -4,6 +4,19 @@
   <listeners>
     <listener class-name="com.watch.utilities.Listener"/>
   </listeners>
+  <test thread-count="5" name="Search Page Test(failed)" verbose="0">
+    <classes>
+      <class name="com.watch.site.search_result.TestSearchResultPage">
+        <methods>
+          <include name="testSearchFunctionalityWRTNoMatchingProduct"/>
+          <include name="launchWebApplication"/>
+          <include name="testSearchFunctionalityWRTMatchingProduct"/>
+          <include name="tearDown"/>
+          <include name="cleanData"/>
+        </methods>
+      </class> <!-- com.watch.site.search_result.TestSearchResultPage -->
+    </classes>
+  </test> <!-- Search Page Test(failed) -->
   <test thread-count="5" name="Contact Us Page Test(failed)" verbose="0">
     <classes>
       <class name="com.watch.site.contact_us.TestContactUsPage">
@@ -12,6 +25,8 @@
           <include name="launchWebApplication"/>
           <include name="cleanData"/>
           <include name="tearDown"/>
+          <include name="testSuccessfulFormSubmission"/>
+          <include name="testEmptyFormSubmission"/>
         </methods>
       </class> <!-- com.watch.site.contact_us.TestContactUsPage -->
     </classes>
